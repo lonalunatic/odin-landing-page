@@ -17,7 +17,7 @@ a {
 }
 
 a:hover, a:active {
-  color: #A52A2A;
+  color: #85461E;
 }
 .header {
 	display: flex;
@@ -50,24 +50,101 @@ a:hover, a:active {
 	padding: 15px 150px;
 	gap: 110px;
 	background-color: #1F2937;
+	margin-bottom: 80px;
+}
+
+.normal-text {
+	line-height: 1.5;
 }
 
 /* layout for img section */
+
+.main h2 {
+	text-align: center;
+}
+
+.main p {
+	text-align: center;
+}
+
 .imgtext {
 	display: flex;
 	flex-flow: column;
-	flex: 25%;
+	flex: 10%;
 	justify-content: flex-start;
 	align-items: center;
+	padding: 40px;
 }
 
 .img-container {
 	display: flex;
 	flex: 1;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
+	padding: 20px;
+	margin: 50px 0px;
 }
 
+/* layout for quote section */
+
+.quotation {
+	font-size: 30px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+#author {
+	text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	height: 450px;
+	justify-content: center;
+	align-items: space-between;
+	padding: 80px;
+}
+
+/* layout sign-up section */
+.bold {
+	font-weight: 600;
+	font-size: 20px;
+}
+.sign-up-text {
+	max-width: 600px;
+	font-size: 18px;
+}
+.sign-up {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	align-items: center;
+	flex: 1 1 0px;
+	margin: 80px 170px;
+	padding: 20px;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 20px;
+}
+#white-button {
+	border: solid 3px white;
+}
+
+/* footer layout */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+	padding: 20px;
+	height: 60px;
+	color: white;
+}
 /* styling */
 .rounded-corners {
 	border-radius: 15px;
@@ -75,10 +152,12 @@ a:hover, a:active {
 
 .button {
 	background-color: #3882F6;
-	padding: 5px;
-	width: 100px;
+	padding: 15px;
+	width: 115px;
 	border: none;
 	border-radius: 5px;
 	font-family: inherit;
 	color: inherit;
+	font-weight: 500;
+	font-size: 16px;
 }
